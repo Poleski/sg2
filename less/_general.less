@@ -1,0 +1,132 @@
+@import (reference) '_variables.less';
+@import '_mixins.less';
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+
+* {
+  box-sizing: border-box;
+  transition: all 200ms ease;
+}
+
+body {
+  background-color: @c-background;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 14px;
+  color: @c-main;
+}
+
+#content {
+  position: relative;
+  height: 100%;
+
+  nav {
+    width: 100%;
+    max-width: @m-mobile;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    a {
+      display: block;
+      text-align: center;
+      margin: 1.5em 0;
+      padding: 0.5em;
+      background-color: @c-sub;
+      color: @c-main;
+      text-decoration: none;
+      position: relative;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 2em;
+      font-weight: 100;
+      line-height: 1;
+
+      .nav-deco {
+        position: absolute;
+        height: 2em;
+        width: 2em;
+        top: 0;
+        bottom: 0;
+        background-color: white;
+        transform: rotate(45deg);
+        padding: 1/3em;
+
+        &:first-child {
+          left: -1.5em;
+        }
+
+        &:last-child {
+          right: -1.5em;
+        }
+
+        span {
+          background-color: @c-sub;
+          position: relative;
+          display: block;
+          width: 100%;
+          height: 100%;
+
+          &:before,
+          &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: inherit;
+            transform: translate(0,0);
+            z-index: -1;
+          }
+        }
+      }
+
+      &:hover {
+        background-color: lighten(@c-sub, 5%);
+
+        .nav-deco {
+          transform: rotate(135deg);
+
+          span {
+            &:before {
+              opacity: 0.5;
+              transition: transform 200ms ease 100ms;
+            }
+            &:after {
+              opacity: 0.25;
+              transition: transform 200ms ease 100ms;
+            }
+          }
+
+          &:first-child {
+            span {
+              background-color: lighten(@c-sub, 5%);
+
+              &:before {
+                transform: translate(0.5em,0.5em);
+              }
+
+              &:after {
+                transform: translate(1em,1em);
+              }
+            }
+          }
+
+          &:last-child {
+            span {
+              &:before {
+                transform: translate(-0.5em,-0.5em);
+              }
+
+              &:after {
+                transform: translate(-1em,-1em);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
