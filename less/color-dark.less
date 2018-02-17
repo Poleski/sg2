@@ -1,0 +1,35 @@
+// Colors
+
+@c-main: #444;
+@c-sub: #c4c4c4;
+@c-background: #f0f0f0;
+@c-font: @c-main;
+
+body,
+nav a .nav-deco {
+  background-color: @c-background;
+}
+
+nav a,
+nav a .nav-deco span {
+  background-color: @c-sub;
+}
+
+nav a:hover,
+nav a.active,
+nav a:hover .nav-deco span,
+nav a.active .nav-deco span {
+  background-color: lighten(@c-sub, 5%);
+}
+
+body,
+nav a{
+  color: @c-main;
+}
+
+nav a .nav-deco span {
+
+}
+
+
+
