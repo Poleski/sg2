@@ -1,0 +1,4 @@
+body {
+    background-color: red;
+    transition: all 200ms ease 100ms;
+}

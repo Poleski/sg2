@@ -1,0 +1,51 @@
+// Content
+
+body,
+nav a .nav-deco,
+footer,
+.portfolio-modal {
+  background: @c-background;
+}
+
+nav a,
+nav a .nav-deco span,
+#contact-form input[type='submit'],
+.modal-close:hover{
+  background: @c-sub;
+}
+
+nav a:hover,
+nav a.active,
+nav a:hover .nav-deco span,
+nav a.active .nav-deco span,
+#contact-form input[type='submit']:hover,
+#contact-form input[type='submit']:focus {
+  background: lighten(@c-sub, 5%);
+}
+
+#contact-form input[type='text'],
+#contact-form input[type='email'],
+#contact-form textarea {
+  background: lighten(@c-background, 5%)
+}
+
+body,
+nav a,
+input,
+textarea{
+  color: @c-font;
+}
+
+.modal-close:hover {
+  color: @c-background;
+}
+
+h2{
+  border-color: @c-font;
+}
+
+#contact-form input[type='text'],
+#contact-form input[type='email'],
+#contact-form textarea{
+  border-color: @c-sub;
+}

@@ -1,35 +1,16 @@
+// Toggle icon;
+
+#theme-toggle:after {
+  font-family: "Font Awesome 5 Free";
+  content: '\f185';
+  font-weight: 700;
+}
+
 // Colors
 
-@c-main: #444;
-@c-sub: #c4c4c4;
-@c-background: #f0f0f0;
+@c-main: #fff;
+@c-sub: #888;
+@c-background: #333;
 @c-font: @c-main;
 
-body,
-nav a .nav-deco {
-  background-color: @c-background;
-}
-
-nav a,
-nav a .nav-deco span {
-  background-color: @c-sub;
-}
-
-nav a:hover,
-nav a.active,
-nav a:hover .nav-deco span,
-nav a.active .nav-deco span {
-  background-color: lighten(@c-sub, 5%);
-}
-
-body,
-nav a{
-  color: @c-main;
-}
-
-nav a .nav-deco span {
-
-}
-
-
-
+@import '_color-base.less';

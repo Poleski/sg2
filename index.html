@@ -13,19 +13,22 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main.min.css">
     </head>
     <body>
+        <span id="color-container">
+            <link rel="stylesheet" href="css/color-light.min.css">
+        </span>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
         <header>
-
+            <div id="test">Test</div>
         </header>
 
         <section id="content">
             <nav>
-                <a href="#">
+                <a href="#" data-target="about">
                     <span class="nav-deco">
                         <span></span>
                     </span>
@@ -34,7 +37,7 @@
                         <span></span>
                     </span>
                 </a>
-                <a href="#">
+                <a href="#" data-target="why-us">
                     <span class="nav-deco">
                         <span></span>
                     </span>
@@ -43,7 +46,7 @@
                         <span></span>
                     </span>
                 </a>
-                <a href="#">
+                <a href="#" data-target="portfolio">
                     <span class="nav-deco">
                         <span></span>
                     </span>
@@ -52,7 +55,7 @@
                         <span></span>
                     </span>
                 </a>
-                <a href="#">
+                <a href="#" data-target="contact">
                     <span class="nav-deco">
                         <span></span>
                     </span>
@@ -64,30 +67,68 @@
             </nav>
 
             <article id="about" class="hidden">
+                <h2>
+                    <span class="heading-deco"></span>
+                    <span class="heading-text">About</span>
+                </h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum a enim ac condimentum. Praesent mollis sapien ac ligula vestibulum, ut congue tortor efficitur. Vivamus porttitor ipsum a ex hendrerit, in porta augue lacinia. Aenean volutpat elit nulla, id malesuada enim dapibus facilisis. Vestibulum eget tempor enim, quis ultrices tortor. Integer non ipsum elit. Phasellus ullamcorper vulputate orci, sed laoreet nibh aliquet non. Vivamus dui dolor, sagittis vel dignissim ac, euismod eget tortor. Quisque eleifend turpis et pulvinar sagittis. Cras eget quam vel elit ullamcorper ornare iaculis at orci. Maecenas in libero orci. Integer quis est in lectus sollicitudin malesuada eu id nunc. Vivamus at leo ac erat ultrices congue.</p>
 
+                <p>Sed vehicula dignissim euismod. Nam nec neque rhoncus, sollicitudin mauris ut, pharetra dui. Phasellus auctor convallis euismod. Nam nulla orci, elementum et blandit consectetur, tempus nec mauris. Aliquam nec massa tellus. In quis nisl quis eros pretium placerat ut sed libero. Duis rutrum massa ipsum, vitae placerat tellus faucibus ut. Curabitur in aliquam odio. Sed laoreet, dui eget dapibus sodales, turpis dolor egestas quam, nec posuere velit lectus et lectus. Sed sed dolor accumsan, maximus velit sed, egestas risus. Mauris posuere faucibus augue, at tristique eros tempor in. Morbi sagittis viverra sapien sed pretium. Duis vitae pulvinar arcu, eu vulputate felis. Nullam mollis quis nibh id dictum. Quisque pellentesque diam id justo pharetra, a vehicula leo lacinia. </p>
             </article>
 
             <article id="why-us" class="hidden">
-
+                <h2>Why us?</h2>
             </article>
 
             <article id="portfolio" class="hidden">
+                <h2>Portfolio</h2>
+                <div class="portfolio-container">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum a enim ac condimentum. Praesent mollis sapien ac ligula vestibulum, ut congue tortor efficitur.</p>
+                    <div>
+                        <img class="portfolio-img" src="img/placeholder.png" width="400" height="220" style="border: 1px solid red" data-target="portfolio-1" />
+                    </div>
+                    <div>
+                        <img class="portfolio-img" src="img/placeholder.png" width="400" height="220" style="border: 1px solid green" data-target="portfolio-2" />
+                    </div>
 
+                    <div class="portfolio-modal">
+                        <div id="portfolio-1" class="portfolio-item-details">
+                            <div class="modal-close"><i class="fas fa-times"></i></div>
+                            <div class="portfolio-img-target"></div>
+                            <div class="portfolio-info"><h3>Portfolio Item 1</h3></div>
+                            <div class="portfolio-description"><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum a enim ac condimentum. Praesent mollis sapien ac ligula vestibulum, ut congue tortor efficitur. Vivamus porttitor ipsum a ex hendrerit, in porta augue lacinia. Aenean volutpat elit nulla, id malesuada enim dapibus facilisis. Vestibulum eget tempor enim, quis ultrices tortor. Integer non ipsum elit. Phasellus ullamcorper vulputate orci, sed laoreet nibh aliquet non. Vivamus dui dolor, sagittis vel dignissim ac, euismod eget tortor. Quisque eleifend turpis et pulvinar sagittis. Cras eget quam vel elit ullamcorper ornare iaculis at orci. Maecenas in libero orci. Integer quis est in lectus sollicitudin malesuada eu id nunc. Vivamus at leo ac erat ultrices congue.</p></div>
+                        </div>
+                        <div id="portfolio-2" class="portfolio-item-details">
+                            <div class="modal-close"><i class="fas fa-times"></i></div>
+                            <div class="portfolio-img-target"></div>
+                            <div class="portfolio-info"><h3>Portfolio Item 2</h3></div>
+                            <div class="portfolio-description"><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum a enim ac condimentum. Praesent mollis sapien ac ligula vestibulum, ut congue tortor efficitur. Vivamus porttitor ipsum a ex hendrerit, in porta augue lacinia. Aenean volutpat elit nulla, id malesuada enim dapibus facilisis. Vestibulum eget tempor enim, quis ultrices tortor. Integer non ipsum elit. Phasellus ullamcorper vulputate orci, sed laoreet nibh aliquet non. Vivamus dui dolor, sagittis vel dignissim ac, euismod eget tortor. Quisque eleifend turpis et pulvinar sagittis. Cras eget quam vel elit ullamcorper ornare iaculis at orci. Maecenas in libero orci. Integer quis est in lectus sollicitudin malesuada eu id nunc. Vivamus at leo ac erat ultrices congue.</p></div>
+                        </div>
+                    </div>
+                </div>
             </article>
 
             <article id="contact" class="hidden">
-
+                <h2>Contact</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum a enim ac condimentum. Praesent mollis sapien ac ligula vestibulum, ut congue tortor efficitur. Vivamus porttitor ipsum a ex hendrerit, in porta augue lacinia. Aenean volutpat elit nulla, id malesuada enim dapibus facilisis. Vestibulum eget tempor enim, quis ultrices tortor. Integer non ipsum elit. Phasellus ullamcorper vulputate orci, sed laoreet nibh aliquet non. Vivamus dui dolor, sagittis vel dignissim ac, euismod eget tortor. Quisque eleifend turpis et pulvinar sagittis. Cras eget quam vel elit ullamcorper ornare iaculis at orci. Maecenas in libero orci. Integer quis est in lectus sollicitudin malesuada eu id nunc. Vivamus at leo ac erat ultrices congue.</p>
+                <form id="contact-form">
+                    <input type="email" placeholder="Your email address" name="email" />
+                    <input type="text" placeholder="Your name" name="first_name" />
+                    <input type="text" placeholder="Subject" name="subject" />
+                    <textarea placeholder="Your message" name="message"></textarea>
+                    <input type="submit" value="Submit" />
+                </form>
             </article>
         </section>
 
         <footer>
-
+            <div id="theme-toggle" data-theme="dark"></div>
         </footer>
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/main.js"></script>
+        <script src="js/main.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
