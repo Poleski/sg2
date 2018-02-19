@@ -88,9 +88,9 @@ $(document).ready(function(){
         var activeItemContainer = portfolioModal.find("#" + activeItem);
 
         portfolioItems.removeClass("active moved");
-        activeItemImg.addClass("active moved")
+        activeItemImg.addClass("active moved");
 
-        $(".portfolio-item-details").removeClass("active")
+        $(".portfolio-item-details").removeClass("active");
         activeItemContainer.addClass("active");
 
         portfolioModal.addClass("active");
@@ -108,8 +108,10 @@ $(document).ready(function(){
 
     portfolioItems.each(function(){
         $(this).click(function() {
-            var activeItem = $(this).data("target");
-            openPortfolioModal(activeItem);
+            if ($(this).hasClass("active") !== true) {
+                var activeItem = $(this).data("target");
+                openPortfolioModal(activeItem);
+            }
         })
     });
 

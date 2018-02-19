@@ -7,6 +7,7 @@
 * {
   box-sizing: border-box;
   transition: all 200ms ease;
+  outline: 0;
 }
 
 body {
@@ -154,27 +155,46 @@ body {
       font-weight: bold;
     }
 
+    h3 {
+      margin: 0;
+      font-size: 1em;
+    }
+
     p,
     form {
       font-size: 0.75em;
+      font-weight: 200;
     }
 
     .portfolio-container {
       position: relative;
       height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
 
-      .portfolio-img {
-        transition: all 200ms ease 100ms;
-        cursor: pointer;
+      .portfolio-item {
+        flex: 0 1 100/3%;
+        text-align: center;
+        padding: 0 0.5em;
 
-        &.active {
-          z-index: 11;
-          position: absolute;
+        .portfolio-img {
+          transition: all 200ms ease 100ms;
+          cursor: pointer;
+
+          &.active {
+            z-index: 11;
+            position: absolute;
+          }
+
+          &.moved {
+            top: 3% !important;
+            left: 4% !important;
+          }
         }
 
-        &.moved {
-          top: 50px !important;
-          left: 50px !important;
+        h3 {
+          margin-bottom: 0.5em;
         }
       }
 

@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd6474d-61a9-467d-be46-1678eca59669" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/comingsoon-desktop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/tlc-desktop.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/css/test.css" afterPath="$PROJECT_DIR$/css/test.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change beforePath="$PROJECT_DIR$/less/_color-base.less" afterPath="$PROJECT_DIR$/less/_color-base.less" />
       <change beforePath="$PROJECT_DIR$/less/_general.less" afterPath="$PROJECT_DIR$/less/_general.less" />
-      <change beforePath="$PROJECT_DIR$/less/_variables.less" afterPath="$PROJECT_DIR$/less/_variables.less" />
-      <change beforePath="$PROJECT_DIR$/less/color-dark.less" afterPath="$PROJECT_DIR$/less/color-dark.less" />
-      <change beforePath="$PROJECT_DIR$/less/color-light.less" afterPath="$PROJECT_DIR$/less/color-light.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,12 +21,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="130" column="46" lean-forward="true" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="271">
+              <caret line="99" column="56" lean-forward="true" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,8 +31,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <state relative-caret-position="409">
+              <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -49,7 +41,7 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
+            <state relative-caret-position="425">
               <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding />
             </state>
@@ -59,16 +51,13 @@
       <file leaf-file-name="_general.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/_general.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="212" column="28" lean-forward="true" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="28" />
+            <state relative-caret-position="341">
+              <caret line="184" column="20" lean-forward="true" selection-start-line="184" selection-start-column="20" selection-end-line="184" selection-end-column="20" />
               <folding>
-                <element signature="e#209#268#0" expanded="false" />
-                <element signature="e#275#406#0" expanded="false" />
-                <element signature="e#425#445#0" expanded="false" />
-                <element signature="e#503#2523#0" expanded="false" />
-                <element signature="e#2704#2748#0" expanded="false" />
-                <element signature="e#2757#2950#0" expanded="false" />
-                <element signature="e#2968#3000#0" expanded="false" />
+                <element signature="e#289#420#0" expanded="false" />
+                <element signature="e#439#459#0" expanded="false" />
+                <element signature="e#517#2537#0" expanded="false" />
+                <element signature="e#2718#2762#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -97,7 +86,7 @@
       <file leaf-file-name="_color-base.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/_color-base.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="816">
               <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
               <folding />
             </state>
@@ -127,7 +116,7 @@
       <file leaf-file-name="main.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="0">
               <caret line="0" column="566" lean-forward="false" selection-start-line="0" selection-start-column="566" selection-end-line="0" selection-end-column="566" />
               <folding />
             </state>
@@ -155,8 +144,8 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/less/color-dark.less" />
         <option value="$PROJECT_DIR$/less/color-light.less" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/less/_color-base.less" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/less/_general.less" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -192,6 +181,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,6 +204,11 @@
             <path>
               <item name="SG2" type="b2602c69:ProjectViewProjectNode" />
               <item name="SG2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SG2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SG2" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -230,8 +226,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,7 +275,8 @@
       <workItem from="1518552973643" duration="3457000" />
       <workItem from="1518636413257" duration="5561000" />
       <workItem from="1518869975620" duration="14739000" />
-      <workItem from="1518954402123" duration="14008000" />
+      <workItem from="1518954402123" duration="14683000" />
+      <workItem from="1519073796598" duration="2485000" />
     </task>
     <task id="LOCAL-00001" summary="Main menu">
       <created>1518641396755</created>
@@ -290,15 +285,21 @@
       <option name="project" value="LOCAL" />
       <updated>1518641396755</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Portfolio and tab saving">
+      <created>1518982058645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518982058645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42759000" />
+    <option name="totallyTimeSpent" value="45919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1232" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -308,7 +309,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="22" y="620" width="1875" height="308" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -348,7 +349,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main menu" />
+    <MESSAGE value="Portfolio and tab saving" />
+    <option name="LAST_COMMIT_MESSAGE" value="Portfolio and tab saving" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -376,13 +378,10 @@
         <state relative-caret-position="3468">
           <caret line="204" column="3" lean-forward="true" selection-start-line="204" selection-start-column="3" selection-end-line="204" selection-end-column="3" />
           <folding>
-            <element signature="e#209#268#0" expanded="false" />
-            <element signature="e#275#406#0" expanded="false" />
-            <element signature="e#425#445#0" expanded="false" />
-            <element signature="e#503#2523#0" expanded="false" />
-            <element signature="e#2704#2748#0" expanded="false" />
-            <element signature="e#2757#2950#0" expanded="false" />
-            <element signature="e#2968#3000#0" expanded="false" />
+            <element signature="e#289#420#0" expanded="false" />
+            <element signature="e#439#459#0" expanded="false" />
+            <element signature="e#517#2537#0" expanded="false" />
+            <element signature="e#2718#2762#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -439,10 +438,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="57" column="27" lean-forward="false" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -498,13 +494,10 @@
         <state relative-caret-position="1377">
           <caret line="81" column="11" lean-forward="true" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
           <folding>
-            <element signature="e#209#268#0" expanded="false" />
-            <element signature="e#275#406#0" expanded="false" />
-            <element signature="e#425#445#0" expanded="false" />
-            <element signature="e#503#2523#0" expanded="false" />
-            <element signature="e#2704#2748#0" expanded="false" />
-            <element signature="e#2757#2950#0" expanded="false" />
-            <element signature="e#2968#3000#0" expanded="false" />
+            <element signature="e#289#420#0" expanded="false" />
+            <element signature="e#439#459#0" expanded="false" />
+            <element signature="e#517#2537#0" expanded="false" />
+            <element signature="e#2718#2762#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -513,10 +506,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -572,13 +562,10 @@
         <state relative-caret-position="527">
           <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding>
-            <element signature="e#209#268#0" expanded="false" />
-            <element signature="e#275#406#0" expanded="false" />
-            <element signature="e#425#445#0" expanded="false" />
-            <element signature="e#503#2523#0" expanded="false" />
-            <element signature="e#2704#2748#0" expanded="false" />
-            <element signature="e#2757#2950#0" expanded="false" />
-            <element signature="e#2968#3000#0" expanded="false" />
+            <element signature="e#289#420#0" expanded="false" />
+            <element signature="e#439#459#0" expanded="false" />
+            <element signature="e#517#2537#0" expanded="false" />
+            <element signature="e#2718#2762#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -587,10 +574,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -639,13 +623,10 @@
         <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="e#209#268#0" expanded="false" />
-            <element signature="e#275#406#0" expanded="false" />
-            <element signature="e#425#445#0" expanded="false" />
-            <element signature="e#503#2523#0" expanded="false" />
-            <element signature="e#2704#2748#0" expanded="false" />
-            <element signature="e#2757#2950#0" expanded="false" />
-            <element signature="e#2968#3000#0" expanded="false" />
+            <element signature="e#289#420#0" expanded="false" />
+            <element signature="e#439#459#0" expanded="false" />
+            <element signature="e#517#2537#0" expanded="false" />
+            <element signature="e#2718#2762#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -720,7 +701,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
+        <state relative-caret-position="425">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding />
         </state>
@@ -736,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="0">
           <caret line="0" column="566" lean-forward="false" selection-start-line="0" selection-start-column="566" selection-end-line="0" selection-end-column="566" />
           <folding />
         </state>
@@ -760,7 +741,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/_color-base.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="816">
           <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
           <folding />
         </state>
@@ -768,36 +749,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        <state relative-caret-position="409">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/_general.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="212" column="28" lean-forward="true" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="28" />
+        <state relative-caret-position="341">
+          <caret line="184" column="20" lean-forward="true" selection-start-line="184" selection-start-column="20" selection-end-line="184" selection-end-column="20" />
           <folding>
-            <element signature="e#209#268#0" expanded="false" />
-            <element signature="e#275#406#0" expanded="false" />
-            <element signature="e#425#445#0" expanded="false" />
-            <element signature="e#503#2523#0" expanded="false" />
-            <element signature="e#2704#2748#0" expanded="false" />
-            <element signature="e#2757#2950#0" expanded="false" />
-            <element signature="e#2968#3000#0" expanded="false" />
+            <element signature="e#289#420#0" expanded="false" />
+            <element signature="e#439#459#0" expanded="false" />
+            <element signature="e#517#2537#0" expanded="false" />
+            <element signature="e#2718#2762#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="130" column="46" lean-forward="true" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="271">
+          <caret line="99" column="56" lean-forward="true" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
