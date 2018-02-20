@@ -233,10 +233,13 @@ body {
             cursor: pointer;
           }
 
-          .portfolio-img-target,
-          .portfolio-info{
+          .portfolio-img-target {
+            flex: 0 1 400px;
             min-height: 300px;
-            flex: 0 1 50%;
+          }
+
+          .portfolio-info {
+            flex: 1 0;
           }
 
           .portfolio-description {
@@ -283,6 +286,12 @@ footer {
   bottom: 0;
   width: 100%;
   z-index: 100;
+  text-align: center;
+
+  span {
+    font-size: 0.5em;
+    font-weight: 200;
+  }
 
   #theme-toggle {
     float: right;

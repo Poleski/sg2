@@ -15,12 +15,17 @@ $(document).ready(function(){
         e.preventDefault();
         var target = $(this).data("target");
         openTab(target);
+        setParameter([{"tab": target}]);
     });
 
-    function setParameter(obj) {
+    function setParameter(queryArray) {
         var url = window.location.href.split('?')[0];
-        var query = $.param(obj);
-        window.history.pushState("object or string", "Title", url+"?"+query);
+        var query = [];
+        for (var i in queryArray) {
+            query.push($.param(queryArray[i]));
+        }
+        var queryString = query.join("&");
+        window.history.pushState("object or string", "Title", url+"?"+queryString);
     }
 
     function getParameter(name) {
@@ -39,7 +44,6 @@ $(document).ready(function(){
         navLinks.removeClass("active").filter(filter).addClass("active").parent().addClass("active");
         contentBlocks.addClass("hidden");
         $("#" + target).removeClass("hidden");
-        setParameter({"tab": target});
 
         if (portfolioModal.hasClass("active")) {
             closePortfolioModal();
@@ -48,6 +52,12 @@ $(document).ready(function(){
 
     if (getParameter("tab")) {
         openTab(getParameter("tab"));
+
+        if (getParameter("tab") === "portfolio" && getParameter("item")) {
+            openPortfolioModal(getParameter("item"));
+        } else {
+            setParameter([{"tab": getParameter("tab")}]);
+        }
     }
 
     // Theme toggle function
@@ -84,6 +94,7 @@ $(document).ready(function(){
     setPortfolioItemsPos();
 
     function openPortfolioModal(activeItem) {
+        setParameter([{"tab": "portfolio"}, {"item": activeItem}]);
         var activeItemImg = portfolioItems.filter("[data-target='"+activeItem+"']");
         var activeItemContainer = portfolioModal.find("#" + activeItem);
 
@@ -97,6 +108,7 @@ $(document).ready(function(){
     }
 
     function closePortfolioModal() {
+        setParameter([{"tab": "portfolio"}]);
         var activeItemImg = portfolioItems.filter(".active");
         activeItemImg.removeClass("moved");
 
@@ -116,6 +128,15 @@ $(document).ready(function(){
     });
 
     $(".modal-close", portfolioModal).click(closePortfolioModal);
+
+    $(".no-click").click(function(e) {
+        e.preventDefault();
+    });
+
+    $(".link-trigger").click(function(e) {
+        e.preventDefault();
+        navLinks.filter("[data-target='" + $(this).data("target") + "']").trigger("click");
+    })
 
 
     // Cached functions
