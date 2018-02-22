@@ -11,7 +11,8 @@ module.exports = function(grunt) {
                 files: {
                     "css/main.min.css": "less/main.less",
                     "css/color-light.min.css": "less/color-light.less",
-                    "css/color-dark.min.css": "less/color-dark.less"
+                    "css/color-dark.min.css": "less/color-dark.less",
+                    "css/fontawesome-custom.min.css": "css/fontawesome-custom.css"
                 }
             }
         },

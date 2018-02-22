@@ -9,6 +9,7 @@ footer,
 }
 
 #preloader .preloader-deco,
+
 nav a,
 nav a .nav-deco span,
 #contact-form input[type='submit'],
@@ -32,10 +33,19 @@ nav a.active .nav-deco span,
 }
 
 body,
+a,
 nav a,
+nav a:hover,
+nav a:focus,
+nav a.active,
 input,
 textarea{
   color: @c-font;
+}
+
+a:hover,
+a:focus {
+  color: @c-sub;
 }
 
 .modal-close:hover {

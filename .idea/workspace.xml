@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd6474d-61a9-467d-be46-1678eca59669" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/color-dark.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/color-light.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/main.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/placeholder.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/main.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/fontawesome-custom.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/fontawesome-custom.min.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change beforePath="$PROJECT_DIR$/browserconfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/color-dark.min.css" afterPath="$PROJECT_DIR$/css/color-dark.min.css" />
+      <change beforePath="$PROJECT_DIR$/css/color-light.min.css" afterPath="$PROJECT_DIR$/css/color-light.min.css" />
+      <change beforePath="$PROJECT_DIR$/css/main.min.css" afterPath="$PROJECT_DIR$/css/main.min.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/less/_color-base.less" afterPath="$PROJECT_DIR$/less/_color-base.less" />
       <change beforePath="$PROJECT_DIR$/less/_general.less" afterPath="$PROJECT_DIR$/less/_general.less" />
+      <change beforePath="$PROJECT_DIR$/site.webmanifest" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="140" column="30" lean-forward="true" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
+            <state relative-caret-position="-63">
+              <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -35,8 +37,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="137" column="91" lean-forward="false" selection-start-line="137" selection-start-column="91" selection-end-line="137" selection-end-column="91" />
+            <state relative-caret-position="470">
+              <caret line="157" column="3" lean-forward="true" selection-start-line="157" selection-start-column="3" selection-end-line="157" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -45,14 +47,9 @@
       <file leaf-file-name="_general.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/_general.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
-              <caret line="247" column="9" lean-forward="true" selection-start-line="247" selection-start-column="9" selection-end-line="247" selection-end-column="9" />
-              <folding>
-                <element signature="e#289#420#0" expanded="false" />
-                <element signature="e#439#459#0" expanded="false" />
-                <element signature="e#517#2537#0" expanded="false" />
-                <element signature="e#2718#2762#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="4777">
+              <caret line="281" column="38" lean-forward="false" selection-start-line="281" selection-start-column="38" selection-end-line="281" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +57,8 @@
       <file leaf-file-name="_color-base.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/_color-base.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+            <state relative-caret-position="561">
+              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -70,48 +67,28 @@
       <file leaf-file-name="color-light.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/color-light.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="color-dark.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/color-dark.less">
+      <file leaf-file-name="fontawesome-custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/fontawesome-custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.min.js">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="0" column="303" lean-forward="false" selection-start-line="0" selection-start-column="303" selection-end-line="0" selection-end-column="303" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -125,6 +102,8 @@
       <find>&lt;i class</find>
       <find>openTab</find>
       <find>navLinks.filt</find>
+      <find>&lt;i cl</find>
+      <find>fa-times</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,12 +117,13 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/test.css" />
         <option value="$PROJECT_DIR$/less/_variables.less" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/less/color-dark.less" />
         <option value="$PROJECT_DIR$/less/color-light.less" />
-        <option value="$PROJECT_DIR$/less/_color-base.less" />
-        <option value="$PROJECT_DIR$/less/_general.less" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/less/_general.less" />
+        <option value="$PROJECT_DIR$/less/_color-base.less" />
+        <option value="$PROJECT_DIR$/css/fontawesome-custom.css" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -189,6 +169,12 @@
               <item name="SG2" type="b2602c69:ProjectViewProjectNode" />
               <item name="SG2" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SG2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SG2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fontawesome-custom.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="SG2" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +254,8 @@
       <workItem from="1518869975620" duration="14739000" />
       <workItem from="1518954402123" duration="14683000" />
       <workItem from="1519073796598" duration="2614000" />
-      <workItem from="1519153322835" duration="5311000" />
+      <workItem from="1519153322835" duration="5602000" />
+      <workItem from="1519327388726" duration="4393000" />
     </task>
     <task id="LOCAL-00001" summary="Main menu">
       <created>1518641396755</created>
@@ -291,25 +278,32 @@
       <option name="project" value="LOCAL" />
       <updated>1519076314984</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Copyright, partial portfolio content">
+      <created>1519158643687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519158643687</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51359000" />
+    <option name="totallyTimeSpent" value="56043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1232" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853332" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="22" y="620" width="1875" height="308" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -317,7 +311,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -359,57 +352,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/_general.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3468">
-          <caret line="204" column="3" lean-forward="true" selection-start-line="204" selection-start-column="3" selection-end-line="204" selection-end-column="3" />
-          <folding>
-            <element signature="e#289#420#0" expanded="false" />
-            <element signature="e#439#459#0" expanded="false" />
-            <element signature="e#517#2537#0" expanded="false" />
-            <element signature="e#2718#2762#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/_variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/color-light.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/color-dark.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -480,24 +422,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="0" column="3804" lean-forward="true" selection-start-line="0" selection-start-column="3804" selection-end-line="0" selection-end-column="3804" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
     <entry file="file://$PROJECT_DIR$/less/_general.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="81" column="11" lean-forward="true" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
-          <folding>
-            <element signature="e#289#420#0" expanded="false" />
-            <element signature="e#439#459#0" expanded="false" />
-            <element signature="e#517#2537#0" expanded="false" />
-            <element signature="e#2718#2762#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -547,24 +477,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="992" lean-forward="true" selection-start-line="0" selection-start-column="992" selection-end-line="0" selection-end-column="992" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
     <entry file="file://$PROJECT_DIR$/less/_general.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#289#420#0" expanded="false" />
-            <element signature="e#439#459#0" expanded="false" />
-            <element signature="e#517#2537#0" expanded="false" />
-            <element signature="e#2718#2762#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -618,12 +536,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#289#420#0" expanded="false" />
-            <element signature="e#439#459#0" expanded="false" />
-            <element signature="e#517#2537#0" expanded="false" />
-            <element signature="e#2718#2762#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -672,13 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/_variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -690,23 +596,7 @@
     <entry file="file://$PROJECT_DIR$/less/color-dark.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/color-light.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/_color-base.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -719,25 +609,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="0" column="4689" lean-forward="true" selection-start-line="0" selection-start-column="4689" selection-end-line="0" selection-end-column="4689" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
     <entry file="file://$PROJECT_DIR$/css/test.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="0">
           <caret line="0" column="303" lean-forward="false" selection-start-line="0" selection-start-column="303" selection-end-line="0" selection-end-column="303" />
           <folding />
         </state>
@@ -745,29 +628,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="137" column="91" lean-forward="false" selection-start-line="137" selection-start-column="91" selection-end-line="137" selection-end-column="91" />
+        <state relative-caret-position="470">
+          <caret line="157" column="3" lean-forward="true" selection-start-line="157" selection-start-column="3" selection-end-line="157" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/color-light.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/_color-base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fontawesome-custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/_general.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="247" column="9" lean-forward="true" selection-start-line="247" selection-start-column="9" selection-end-line="247" selection-end-column="9" />
-          <folding>
-            <element signature="e#289#420#0" expanded="false" />
-            <element signature="e#439#459#0" expanded="false" />
-            <element signature="e#517#2537#0" expanded="false" />
-            <element signature="e#2718#2762#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="4777">
+          <caret line="281" column="38" lean-forward="false" selection-start-line="281" selection-start-column="38" selection-end-line="281" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fontawesome-custom.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tile-wide.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browserconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site.webmanifest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="140" column="30" lean-forward="true" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
+        <state relative-caret-position="-63">
+          <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
           <folding />
         </state>
       </provider>
