@@ -150,3 +150,9 @@ $(document).ready(function(){
     })
 
 });
+
+// Preloader
+
+$(window).on("load", function() {
+    $("#preloader").hide();
+});
