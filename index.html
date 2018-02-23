@@ -15,12 +15,15 @@
         <link href="css/fontawesome-custom.min.css" rel="stylesheet">
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/solid.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.min.css">
+        <link rel="stylesheet" href="css/color-dark.min.css" id="dark-styles">
+        <link rel="stylesheet" href="css/color-light.min.css" id="light-styles">
     </head>
     <body>
+        <script>
+            document.getElementById('dark-styles').disabled  = true;
+            document.getElementById('light-styles').disabled = false;
+        </script>
         <div id="preloader"><div>Loading...</div></div>
-        <span id="color-container">
-            <link rel="stylesheet" href="css/color-light.min.css">
-        </span>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->

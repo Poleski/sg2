@@ -68,7 +68,8 @@ $(document).ready(function(){
 
         if (toggle.data('theme') === color) {
             toggle.data('theme', opposite);
-            colorContainer.html('<link rel="stylesheet" href="css/color-' + color + '.min.css" />');
+            document.getElementById(color + '-styles').disabled = false;
+            document.getElementById(opposite + '-styles').disabled = true;
             localStorage.setItem("theme", color);
         }
     }
@@ -83,12 +84,18 @@ $(document).ready(function(){
 
     // Portfolio
 
-    function setPortfolioItemsPos() {
+    function setPortfolioItemsPos(activeItem) {
         portfolioItems = portfolioContainer.find(".portfolio-img");
-        portfolioItems.each(function() {
-            var pos = $(this).position();
-            $(this).attr("data-pos-x", pos.left).attr("data-pos-y", pos.top).css({top: pos.top, left: pos.left});
-        })
+
+        if (activeItem) {
+            activeItem.attr("data-pos-x", activeItem.position().left).attr("data-pos-y", activeItem.position().top).css({top: activeItem.position().top, left: activeItem.position().left});
+        } else {
+            portfolioItems.each(function() {
+                var pos = $(this).position();
+                $(this).attr("data-pos-x", pos.left).attr("data-pos-y", pos.top).css({top: pos.top, left: pos.left});
+            })
+        }
+
     }
 
     setPortfolioItemsPos();
@@ -115,6 +122,7 @@ $(document).ready(function(){
         setTimeout(function() {
             portfolioModal.removeClass("active");
             activeItemImg.removeClass("active");
+            setPortfolioItemsPos(activeItemImg);
         }, 300)
     }
 
@@ -136,7 +144,7 @@ $(document).ready(function(){
     $(".link-trigger").click(function(e) {
         e.preventDefault();
         navLinks.filter("[data-target='" + $(this).data("target") + "']").trigger("click");
-    })
+    });
 
 
     // Cached functions

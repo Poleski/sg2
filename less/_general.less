@@ -5,14 +5,22 @@
 @import url('https://fonts.googleapis.com/css?family=Megrim');
 
 @keyframes preloader {
-  0%   { width: 0%; }
-  50% { width: 100%;}
-  100% { width: 0%; right: 0; left: unset;}
+  0%   {
+    width: 0%;
+  }
+  50%  {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+    right: 0;
+    left: unset;
+  }
 }
 
 * {
   box-sizing: border-box;
-  transition: all 200ms ease;
+  transition: background 200ms ease;
   outline: 0;
 }
 
@@ -220,6 +228,7 @@ body {
           &.active {
             z-index: 11;
             position: absolute;
+            cursor: default;
           }
 
           &.moved {
@@ -306,18 +315,17 @@ body {
         border-width: 2px;
         border-style: solid;
         font-family: 'Exo 2', sans-serif;
+        transition: background 200ms ease, color 200ms ease, border 200ms ease;
 
         &[type='submit'] {
           border: 0;
           cursor: pointer;
-          padding: 1em;
         }
       }
 
       textarea {
         max-width: 100%;
         min-width: 100%;
-        transition: background 200ms ease, color 200ms ease, border 200ms ease;
       }
     }
   }
@@ -340,5 +348,6 @@ footer {
     clear: both;
     margin-right: 0.5em;
     cursor: pointer;
+
   }
 }
