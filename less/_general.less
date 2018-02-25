@@ -96,6 +96,7 @@ body {
         bottom: 0;
         transform: rotate(45deg);
         padding: 1/3em;
+        transition: all 200ms ease;
 
         &:first-child {
           left: -1.5em;
@@ -250,6 +251,7 @@ body {
         left: 0;
         z-index: -1;
         opacity: 0;
+        transition: all 200ms ease;
 
         &.active {
           opacity: 1;
@@ -315,6 +317,7 @@ body {
         border-width: 2px;
         border-style: solid;
         font-family: 'Exo 2', sans-serif;
+        font-weight: 200;
         transition: background 200ms ease, color 200ms ease, border 200ms ease;
 
         &[type='submit'] {
