@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     // Main nav functionality
 
-    var navLinks = $("nav a");
+    var navLinks = $("nav > div > a");
     var contentBlocks = $("#content article");
     var colorContainer = $("#color-container");
     var storedTheme = localStorage.getItem("theme");
@@ -41,7 +41,7 @@ $(document).ready(function(){
     function openTab(target) {
         var filter = "[data-target='" + target + "']";
 
-        navLinks.removeClass("active").filter(filter).addClass("active").parent().addClass("active");
+        navLinks.removeClass("active").filter(filter).addClass("active").parent().parent().addClass("active");
         contentBlocks.addClass("hidden");
         $("#" + target).removeClass("hidden");
 
@@ -95,7 +95,6 @@ $(document).ready(function(){
                 $(this).attr("data-pos-x", pos.left).attr("data-pos-y", pos.top).css({top: pos.top, left: pos.left});
             })
         }
-
     }
 
     setPortfolioItemsPos();

@@ -12,8 +12,24 @@
  line-height:1
 }
 
+.fa-bars:before {
+ content:"\f0c9"
+}
+
+.fa-gem:before {
+ content:"\f3a5"
+}
+
+.fa-envelop:before {
+ content:"\f0e0"
+}
+
 .fa-moon:before {
  content:"\f186"
+}
+
+.fa-question:before {
+ content:"\f128"
 }
 
 .fa-sun:before {
@@ -22,6 +38,10 @@
 
 .fa-times:before {
  content:"\f00d"
+}
+
+.fa-user:before {
+ content:"\f007"
 }
 
 .sr-only {
@@ -34,6 +54,7 @@
  position:absolute;
  width:1px
 }
+
 .sr-only-focusable:active,.sr-only-focusable:focus {
  clip:auto;
  height:auto;
